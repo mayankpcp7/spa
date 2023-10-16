@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spa</title>
+    <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
+    <meta name="description"
+        content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
+    <meta property="og:description"
+        content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" />
+    <meta property="twitter:description"
+        content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spa</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/png/navlogo.png"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- slick min css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- slick theam min css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="overflow-hidden">
+    <div class="overflow-x-hidden"> 
+    <!-------------------- preloader---------------- -->
+    <section
+      id="preloader"
+      class="min-vh-100 bg_blue d-flex justify-content-center align-items-center position-fixed top-0 w-100 z_1000 "
+    >
+      <div class="d-flex justify-content-center align-items-center">
+       <div><img class="animintion_preloader"  src="./assets/images/png/navlogo.png" alt="navlogo" class="w-100" /> </div>
+
+       </div>
+    </section>
+    <!-------------- header ----------------->
+    <header class="bg_header overflow-hidden">
+      <nav class="container d-flex  justify-content-between align-items-center py-3">
+        <img class="z_200 cursor_pointer" src="./assets/images/png/navlogo.png" alt="navlogo">
+        <ul class="d-lg-flex align-items-center mb-0 d-none">
+<li><a href="#">Services</a></li>
+<li><a href="#">Benefits</a></li>
+<li><a href="#">Why Choose US</a></li>
+<li><a href="#">FAQs</a></li>
+        </ul>
+        <button class="my_btn bg_darksky text-white d-none d-lg-flex fs_md fw-medium">Contact us</button>
+        <div class="d-flex flex-column d-lg-none z_200"onclick="shownav()">
+<span class="d-flex nav_icon"></span>
+<span class="d-flex nav_icon"></span>
+<span class="d-flex nav_icon"></span>
+        </div>
+      
+      </nav>
+        <ul class="d-flex flex-column gap-4 justify-content-center ps-0 align-items-center mb-0 d-lg-none sm_nav"id=nav>
+<li><a class="text-white fw-normal nav_line" href="#">Services</a></li>
+<li><a class="text-white fw-normal nav_line" href="#">Benefits</a></li>
+<li><a class="text-white fw-normal nav_line" href="#">Why Choose US</a></li>
+<li><a class="text-white fw-normal nav_line" href="#">FAQs</a></li>
+  <button class="my_btn bg_darksky text-white d-lg-none fs_md fw-medium">Contact us</button>
+        </ul>
+        <main class="container d-flex align-items-center mt-5 pt-4 flex-column position-relative"data-aos="zoom-in-down"
+         data-aos-duration="1500">
+          <img class="header_left" src="./assets/images/png/header.png" alt="headervec">
+          <img class="header_right" src="./assets/images/png/header_right.png" alt="header_right">
+<h1 class="text-center text-white fs_xl mw_728 mt-lg-5 pb-1">Simplifying Laptop Refresh Deployments for Organizations</h1>
+<p class="text-center text-white pt-2 mb_full pb-5">Revolutionizing the Way You Manage Laptop Refresh Projects</p>
+    </header>
+    <div class="container"> 
+    <div class="d-flex align-items-start justify-content-center dashboard"data-aos="zoom-in-up"><img class="w-100" src="./assets/images/webp/dashboard.webp" alt="dashboard"> </div></div>
+    <!-- ------------features and benifits-------- -->
+     <section class="py-xl-5 my-xl-5">
+      <div class="container py-5">
+        <h2 class="ff_poppins fw-semibold text-center fs_xl mb-5 mb-0"data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+          Features & <span class="fw-light fst-italic">Benefits</span>
+        </h2>
+        
+        <div class="d-flex justify-content-between mb-5 myslider">
+          <div class="d-flex flex-column mx_12 pe-3 ps-4 feature_cards h-100"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
+            <p
+              class="text-center opacity-100 bg_blur ff_poppins d-inline-block mx-5 px-5 fs_md text-white mb-4 bg_blue rounded_20 py-3 fw-semibold"
+            >
+              Employee Portal
+            </p>
+            <div class="d-flex pt-2 pb-5">
+              <img
+                class="pe-4 position-relative z-0"
+                src="./assets/images/png/line.png"
+                alt="line"
+              />
+              <div class="d-flex flex-column position-relative z-3">
+                
+                <div class="position-relative z-3">
+                  <h5
+                    class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                  >
+                    User-Friendly Signup:
+                  </h5>
+                  <p class="ps-4 text-black pt-2 opacity-75">
+                    Employees easily indicate their preference for a new laptop.
+                  </p>
+                </div>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                  Seamless Communication:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2">
+                  Automated notifications keep employees informed from request
+                  to exchange.
+                </p>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                  Flexible Scheduling:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2 mb-0">
+                  Convenient appointment scheduling and rescheduling rightfrom
+                  the portal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column mx_12 pe-3 ps-4 feature_cards h-100"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
+            <p
+              class="text-center ff_poppins opacity-100 bg_blur d-inline-block mx-5 px-4 fs_md text-white bg_blue rounded_20 py-3 fw-semibold"
+            >
+              Engineer Dashboard
+            </p>
+            <div class="d-flex pb-5 mt-3">
+              <div class="position-relative mt-2 "><img class="pe-4" src="./assets/images/png/line.png" alt="line" /> 
+                <div class="d-flex flex-column gap-5 dot_group justify-content-between align-items-center " >   <img class="dots" src="./assets/images/png/dot.png" alt="dot">
+                <img class="dots" src="./assets/images/png/dot.png" alt="dot">
+                <img class="dots" src="./assets/images/png/dot.png" alt="dot"></div>
+              
+              </div>
+              <div class="d-flex  flex-column">
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                 Daily Handover Insights:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2">
+                 View all laptop handover appointments for the day at a glance.
+                </p>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                 Efficient Management:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2">
+                 Update laptop serial numbers manually, label exchanges, and track noshows.
+                </p>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                Full Office Visibility:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2 mb-0">
+                Monitor all appointments for the office, regardless of the date.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column mx_12 pe-3 ps-4 feature_cards h-100"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500">
+            <p
+              class="text-center ff_poppins bg_blur opacity-100 d-inline-block mx-5 fs_md text-white bg_blue rounded_20 py-3 fw-semibold"
+            >
+              Stakeholder Dashboard
+            </p>
+            <div class="d-flex pb-5 mt-3">
+              <img class="pe-4" src="./assets/images/png/line.png" alt="line" />
+              <div class="d-flex flex-column">
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                 Deployment Overview:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2">
+                  Stay updated with holistic and individual office performance metrics.
+                </p>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                 Employee Tracking:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2">
+                 Identify completed exchanges 
+and no-shows, making escalations swift and easy
+                </p>
+                <h5
+                  class="ff_poppins mb-0 ps-4 fs_sm fw-medium position-relative"
+                >
+                 Deployment Calendar:
+                </h5>
+                <p class="ps-4 text-black opacity-75 pt-2 mb-0">
+                 Get a clear picture of current and upcoming deployments by office.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3 justify-content-center">
+<svg class="prev cursor_pointer slider_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.875 7.75L11.125 14.5L17.875 21.25" stroke="#646060" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="0.5" y="0.5" width="29" height="29" rx="3.5" stroke="#646060"/>
+</svg>
+<svg class="next cursor_pointer slider_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" rx="4" fill="#377C8A"/>
+<path d="M11.125 21.25L17.875 14.5L11.125 7.75" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+
+        </div>
+        
+      </div>
+    </section> 
+    <!-- ------------About SPA------------------ -->
+    <section class="bg_sky py-5 overflow-hidden">
+      <div class="container py-xl-5 position-relative">
+        <span class="blue_dot"></span>
+        <img class="lapvec" src="./assets/images/png/lapvec.png" alt="laptop" />
+        <div class="row align-items-center justify-content-between py-xl-5">
+          <div class="col-lg-6 col-xl-5 pb-3"data-aos="fade-down-right">
+            <div
+              class="d-flex flex-column align-items-center align-items-lg-start"
+            >
+              <h2 class="fw-semibold fs_xl mb-4 mb-lg-0 pb-3">
+                About <span class="fw-normal">SPA</span>
+              </h2>
+              <p
+                class="fw-normal text-black opacity-75 text-lg-start text-center pt-1 pt-lg-0"
+              >
+                Dui nulla duis tristique eu sed sit in ut. Dictum felis commodo
+                eu nulla. Adipiscing sed eu nisi justo id pharetra rutrum. Morbi
+                nisi facilisi senectus pulvinar in enim feugiat eros tortor.
+                Eget senectus tellus nunc vulputate volutpat.
+              </p>
+              <p class="opacity-75 text-black text-lg-start text-center">
+                Laoreet pellentesque augue ipsum urna potenti elementum.
+                Tincidunt ipsum at suspendisse posuere scelerisque sit elit.
+                Cras tellus id odio amet pellentesque arcu.
+              </p>
+              <button class="fs_md my_btn bg_blue text-white mt-2">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0"data-aos="fade-down-left">
+            <img
+              class="w-100 position-relative z-1"
+              src="./assets/images/webp/aboutspa.webp"
+              alt="aboutspa"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------Why choose spa--------------- -->
+    <section class="py-lg-5 my-5"data-aos="zoom-in"
+    data-aos-duration="1500">
+      <div class="container py-xl-5">
+        <h2 class="fs_xl text-black text-center fw-semibold">
+          Why Choose <span class="fw-normal fst-italic">SPA?</span>
+        </h2>
+        <div class="row justify-content-xxl-evenly justify-content-center justify-content-lg-between pt-5">
+          <div class="col-lg-3 d-lg-block d-flex flex-column gap-4">
+<div class="d-lg-block d-flex align-items-start"> 
+  <img class="pe-3 d-lg-none" src="./assets/images/png/solution.png" alt="solution">
+            <div class="d-flex flex-column justify-content-end">
+              <h4 class="fw-medium fs_sm text-black text-lg-end mb-0 pb-2">
+                Comprehensive Solution
+              </h4>
+              <p class="text-lg-end text-start text-black mb-0">
+                SPA handles every aspect of your laptop refresh project,
+                eliminating the need for multiple tools and manual
+                interventions.
+              </p>
+            </div>
+            </div>
+            <div class="d-lg-block align-items-start d-none">
+              <img class="d-block d-lg-none pe-3" src="./assets/images/png/improved.png" alt="improved">
+            <div class="d-flex flex-column justify-content-between pt-lg-5">
+              <h4 class="fw-medium fs_sm text-black text-lg-end text-start mb-0 pb-2">
+               Improved Accountability:
+              </h4>
+              <p class="text-lg-end text-start text-black mb-0">
+               With SPA, stakeholders and office managers have access to real-time data, ensuring that every employee exchange is accounted for.
+              </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="d-flex mt-3 align-items-center justify-content-xl-center justify-content-between "> 
+             <div class="position-relative"><img src="./assets/images/png/spa_right.png" alt="spa_right">
+            <img class="solution position-absolute" src="./assets/images/png/solution.png" alt="solution">
+          <img class="improved position-absolute" src="./assets/images/png/improved.png" alt="improved"></div> 
+            <img src="./assets/images/png/why_choose_spa.png" alt="spa" />
+          <div class="position-relative"><img src="./assets/images/png/spa_left.png" alt="spa_left">
+          <img class="position-absolute time" src="./assets/images/png/time.png" alt="time"> 
+        <img class="communication position-absolute" src="./assets/images/png/communication.png" alt="communication"></div>
+        </div>
+          </div>
+          <div class="col-lg-3 d-lg-block d-flex flex-column gap-4 pt-4 pt-lg-0">
+            <div class="d-flex d-lg-block align-items-start"> 
+            <img class="d-lg-none pe-3" src="./assets/images/png/time.png" alt="time">
+            <div class="d-flex flex-column justify-content-between">
+              <h4 class="fw-medium fs_sm text-black text-start mb-0 pb-2">
+                Time & Cost Efficiency
+              </h4>
+              <p class="text-start text-black mb-0">
+                Automated processes mean less manual work, leading to faster
+                deployments and cost savings.
+              </p>
+            </div>
+            </div>
+            <div class="d-flex align-items-start"> 
+              <img class="pe-3 d-lg-none" src="./assets/images/png/communication.png" alt="communication">
+            <div class="d-flex flex-column justify-content-start pt-lg-5 mt-xl-4">
+              <h4 class="fw-medium fs_sm text-black text-start mb-0 pb-2">
+                Enhanced Communication
+              </h4>
+              <p class="text-start text-black mb-0">
+                Whether it's rescheduling, reminders, or updates, SPA ensures
+                everyone is on the same page.
+              </p>
+            </div>
+            </div>
+             <div class="d-lg-none align-items-start d-flex">
+              <img class="d-block d-lg-none pe-3" src="./assets/images/png/improved.png" alt="improved">
+            <div class="d-flex flex-column justify-content-between pt-lg-5">
+              <h4 class="fw-medium fs_sm text-black text-lg-end text-start mb-0 pb-2">
+               Improved Accountability:
+              </h4>
+              <p class="text-lg-end text-start text-black mb-0">
+               With SPA, stakeholders and office managers have access to real-time data, ensuring that every employee exchange is accounted for.
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------Promo video------------ -->
+    <section class="py-5 mb-lg-5 position-relative"data-aos="zoom-in-down"
+    data-aos-duration="1500">
+      <img class="promo_vec" src="./assets/images/png/Vector.png" alt="Vector">
+      <div class="container pb-xl-5">
+       <h2 class="text-black text-center fs_xl fw-semibold mb-5">
+        Watch Promo <span class="fst-italic fw-normal"> Video</span></h2>
+        <div class="d-flex justify-content-center align-items-center">
+<div class="position-relative"><img class="w_100  " src="./assets/images/png/Frame 1171276474.png" alt="Video"> 
+
+<img class="cursor_pointer play" src="./assets/images/png/video_play.png" alt="video_play"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------your partner ----------->
+    <section class="py-lg-5 bg_sky">
+      <div class="container position-relative">
+        <img
+          class="partnervec w_25 z-0 w_36"
+          src="./assets/images/png/partner_vec.png"
+          alt="partner_vec"
+        />
+        <div
+          class="row flex-column-reverse flex-lg-row py-5 my-3 align-items-center justify-content-lg-between"
+        >
+          <div class="col-lg-6 pt-5 pt-lg-0"data-aos="zoom-in-right"
+          data-aos-duration="1500">
+            <img
+              class="w-100 position-relative z-1"
+              src="./assets/images/png/partner_lap.png"
+              alt="partner"
+            />
+          </div>
+          <div class="col-lg-5"data-aos="zoom-in-left"
+          data-aos-duration="1500">
+            <div class="d-flex flex-column">
+              <h2
+                class="text-black fs_xl fw-semibold text-lg-start text-center lh_63"
+              >
+                Your Partner in Streamlined Laptop
+                <span class="fst-italic fw-normal"> Refresh Deployments </span>
+              </h2>
+              <p class="opacity_60 text-center text-lg-start text-black">
+                Equip your organization with the best. Experience hassle-free
+                management and stakeholder satisfaction with SPA.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------footer--------- -->
+    <footer class="pt-5 position-relative"data-aos="zoom-in-up"
+    data-aos-duration="1500">
+      <img class="position-absolute footer_left z-0" src="./assets/images/png/footer_left.png" alt="leftvec">
+      <img class="position-absolute end-0 bottom-0 z-0" src="./assets/images/png/footer_right.png" alt="rightvec">
+      <div class="container position-relative z-1 mb-5">
+        <div class="d-flex flex-xxl-row justify-content-between flex-column py-lg-5 my-xl-3">
+            <div class="w_50 d-flex d-md-block flex-column align-items-center mb-4 mb-xxl-0">
+              <img src="./assets/images/png/footerlogo.png" alt="footerlogo" />
+              <p class="fs_sm fw-normal opacity_60 pt-3 text-start mw_336 text-md-start text-center">
+                Equip your organization with the best. Experience hassle-free
+                management and stakeholder satisfaction with SPA.
+              </p>
+            </div>
+            <div class="d-flex flex-lg-row flex-column-reverse w-100 justify-content-between"> 
+              <div class="d-flex flex-column align-iterms-center w-lg-50 flex-lg-row"> 
+              <div class="d-flex w-100 bg_blue mt-lg-0 mt-5 flex-column align-items-start py-4 px-3  rounded-1">
+               <div class="row justify-content-between w-sm-100 align-items-center">
+                <div class="col-6">
+                 <div class="d-flex w-100 flex-column">
+                   <p class="text-white fs_sm fw-normal mb-0 pb-2 border-none">First Name</p>
+                   <input class="bg-transparent border_ofwhite outline_none text-white py-2 rounded-1"
+                    type="
+                    text"/>
+                </div>
+                </div>
+                <div class="col-6"> 
+                     <div class="d-flex w-100 flex-column ps-2">
+                  <p class="text-white fs_sm fw-normal mb-0 pb-2 border-none">Last Name</p>
+                  <input class="bg-transparent border_ofwhite outline_none text-white py-2 w-100 rounded-1"
+                    type="
+                  text"
+                  />
+                </div>
+                </div>
+                </div>
+                <p class="text-white fs_sm fw-normal mb-0 pb-2 border-none mt-3">Email</p>
+                 <input class="bg-transparent border_ofwhite outline_none text-white w-100 py-2 w-100 rounded-1"
+                    type="
+                  text"
+                  />
+                  <button class="mt-3 px-4 py-2 ff_poppins fw-medium fs_xsm bg_darksky rounded_45 border-0 text-white">
+                    Submit
+                  </button>
+              </div>
+              </div>
+               <div> 
+                  <div class="d-flex pt-xl-0 pt-4 justify-content-between">
+                  <div class="d-flex flex-column ps-lg-4 pe-5"> 
+               <h4 class="text-black ff_poppins fs_md fw-semibold">Links</h4>
+               <ul class="ps-0 me-0">
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer mt-1">Assignment</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Product Package</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Journey</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Contact Us</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Programs</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Terms of Service</li>
+               </ul>
+               </div>
+                 <div class="d-flex flex-column"> 
+               <h4 class="text-black ff_poppins fs_md fw-semibold">Other Links</h4>
+               <ul class="ps-0 me-0">
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer mt-1">Privacy Policy</li>
+                <li class="opacity_60 fw-normal fs_sm pb-2 cursor_pointer">Terms of Service</li>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      <span class="footer_line w-100"></span>
+      <p class="text-center text-black opacity_60 py-3 mb-0">© 2023 SPA All rights reserved</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      const a = document.getElementById("nav");
+      function shownav() {
+        a.classList.toggle("shownav");
+        document.body.classList.toggle("overflow-hidden");
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- j quairy min js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- slick min js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init({once:true,});
+</script>
+    <script>
+      $(".myslider").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots:false,
+        infinite:true,
+        nextArrow:".next",
+        prevArrow:".prev",
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              
+            },
+          },
+          {
+            breakpoint:992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>const preloader = document.getElementById("preloader");
+      setTimeout(() => {
+        preloader.classList.add("d-none");
+        preloader.classList.add("pointer_event_none");
+        document.body.classList.remove("overflow-hidden");
+      }, 4000);</script></script>
+      </div>
+  </body>
+</html>
